@@ -144,15 +144,15 @@ This section explains the framework that Jumpman Plumber is modeled after. Our f
 This sections describes the requirements that Jumpman Plumber must satisfy in order to be considered a viable
 software. 
 
-The requirements include: 
+    The requirements include: 
 
-The character must be able to move left, right, jump, and shoot fireballs. Enemies must be killed when anything hits them. This excludes when enemies are jumped on. The character must be able to finish the level.
+    The character must be able to move left, right, jump, and shoot fireballs. Enemies must be killed when anything hits them. This excludes when enemies are jumped on. The character must be able to finish the level.
 
 **Restraints**
 
 This section describes the limitations that the developers of Jumpman Plumber are bound by.
 
-Limitations:
+    Limitations:
 
-The game must be completed in Java code and work on various OS.
+    The game must be completed in Java code and work on various OS.
 
