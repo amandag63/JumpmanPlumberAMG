@@ -147,7 +147,7 @@ software.
     The requirements include: 
 
     The character must be able to move left, right, jump, and shoot fireballs. 
-    Enemies must be killed when anything hits them. This excludes when enemies are jumped on. 
+    Enemies must be killed when anything hits them (This excludes when enemies are jumped on)
     The character must be able to finish the level.
 
 **Restraints**
