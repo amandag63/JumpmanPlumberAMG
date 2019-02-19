@@ -157,4 +157,3 @@ This section describes the limitations that the developers of Jumpman Plumber ar
 	Limitations:
 
 	The game must be completed in Java code and work on various OS.
-
