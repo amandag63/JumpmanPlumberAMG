@@ -70,8 +70,7 @@ be interacted with by other game objects or the mechanics
 systems are called from
 - *Game Object* - A theoretical representation of an object in the game.
 All interactive elements in the game stem from this concept.
-- *Game Over* - 1.  The end of the game.
-2.  The failure screen shown at a game loss.
+- *Game Over* - 1.  The end of the game  2.  The failure screen shown at a game loss.
 - *High Level Systems* - Broad systems in the architecture that govern many
 small functions and utilities. These are the Animator, Mechanics, Core Logic, Input and Ouput.
 - *Input* - The keyboard/joystick events that come from the user
@@ -127,4 +126,3 @@ software
 **Restraints**
 
 This section describes the limitations that the developers of SUMOH are bound by 
-
