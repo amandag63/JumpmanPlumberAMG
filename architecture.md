@@ -40,11 +40,14 @@ Version 0.1
 
 **Purpose**
 
+
 **SAD**
+
 This document is designed to explain the software design of Jumpman Plumber
 and its architecture. It will give an overview of the various systems
 that Jumpman Plumber utilizes and define features that are novel to Jumpman Plumber. 
 It will also provide key terms that will be useful to the user as they play our Java game. 
+
 
 **Project**
 
@@ -103,6 +106,7 @@ concept that is essential to the Animation, Core Logic and I/O
 - *Obstacle* - A thing that blocks one's way or prevents or hinders progress.
 - *Upgrade* - A way to make the given item, character, etc. more powerful.
 
+
 **Representation**
 
 This section describes the three ways in which we will talk about Jumpman Plumber.
@@ -120,9 +124,11 @@ The final view will be the code-facing or low-level view. This view is at the un
 and examines the way in which individual code elements perform their tasks and their input and
 output. This view is essential for testing and optimization.
 
+
 **Framework**
 
 This section explains the framework that Jumpman Plumber is modeled after. Our framework is a game engine and has many key elements that are essential to our game. First, we included a background that will make the character look as if it is moving throughout the game. Second, we included a character image that the user will use to navigate throughout the game using sprites. Third, we included obstacles that are present in our framework. These obstacles are what creates difficulty in our game. The user will have to navigate around these obstacles in order to get to the finish line.
+
 
 **SAD Diagrams**
 
