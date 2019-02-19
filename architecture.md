@@ -116,6 +116,8 @@ output. This view is essential for testing and optimization.
 
 This section explains the framework that SUMOH is modeled after.
 
+![image of front-end and architecure](../images/Drawing.PNG)
+
 ## Architectural Goals
 
 **Standards**
