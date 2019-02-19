@@ -27,6 +27,8 @@ Version 0.1
     
     3. Framework
 
+    4. SAD Diagrams
+
 3. Architectural Goals
 
     1. Standards
@@ -70,7 +72,7 @@ be interacted with by other game objects or the mechanics
 systems are called from
 - *Game Object* - A theoretical representation of an object in the game.
 All interactive elements in the game stem from this concept.
-- *Game Over* - 1.  The end of the game  2.  The failure screen shown at a game loss.
+- *Game Over* - 1.  The end of the game 2.  The failure screen shown at a game loss.
 - *High Level Systems* - Broad systems in the architecture that govern many
 small functions and utilities. These are the Animator, Mechanics, Core Logic, Input and Ouput.
 - *Input* - The keyboard/joystick events that come from the user
@@ -90,12 +92,13 @@ that are displayed frame-wise to form an animation
 states that are mutually exclusive and can be transitioned to only from 
 certain other states by a clearly defined set of actions. A very important
 concept that is essential to the Animation, Core Logic and I/O 
+- *Obstacle* - A thing that blocks one's way or prevents or hinders progress.
 - *Upgrade* - A way to make the given item, character, etc. more powerful.
 
 
 **Representation**
 
-This section describes the three ways in which we will talk about SUMOH.
+This section describes the three ways in which we will talk about Jumpman Plumber.
 
 
 The first will be the user-facing or Front-End view. A view of the software
@@ -114,17 +117,24 @@ output. This view is essential for testing and optimization.
 
 **Framework**
 
-This section explains the framework that SUMOH is modeled after.
+This section explains the framework that Jumpman Plumber is modeled after. Our framework is a game engine and has many key elements that are essential to our game. First, we included a background that will make the character look as if it is moving throughout the game. Second, we included a character image that the user will use to navigate throughout the game using sprites. Third, we included obstacles that are present in our framework. These obstacles are what creates difficulty in our game. The user will have to navigate around these obstacles in order to get to the finish line.
 
-![image of front-end and architecure](../images/Drawing.PNG)
+**SAD Diagrams**
+
+![UML Use Case Diagram](../images/Drawing.PNG)
+
+![UML Class Diagram](../images/Drawing.PNG)
 
 ## Architectural Goals
 
 **Standards**
 
-This sections describes the requirements that SUMOH must satisfy to be considered viable
-software
+This sections describes the requirements that Jumpman Plumber must satisfy to be considered viable
+software.
+
 
 **Restraints**
 
-This section describes the limitations that the developers of SUMOH are bound by 
+This section describes the limitations that the developers of Jumpman Plumber are bound by.
+
+
