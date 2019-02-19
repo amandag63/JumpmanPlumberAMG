@@ -1,61 +1,3 @@
-# Jumpman Plumber Game
-
-### Software Architecture Document (SAD)
-Version 0.1 
-
-## Revision History
-
-| Date    | Version   | Description   | Author   |
-|:-------:|:---------:|:-------------:|:-------------:|
-| 2/29/19 | 0.1       | First Draft   |  RunTimeTerror |
-
-## Table of Contents
-
-1. Introduction
-    
-    1. Purpose
-
-        1. SAD
-
-        2. Project
-
-2. Overview
-    
-    1. Key Terms
-
-    2. Representation
-    
-    3. Framework
-
-    4. SAD Diagrams
-
-3. Architectural Goals
-
-    1. Standards
-       
-    2. Constraints
-    
-    
-## Introduction
-
-**Purpose**
-
-
-**SAD**
-
-This document is designed to explain the software design of Jumpman Plumber
-and its architecture. It will give an overview of the various systems
-that Jumpman Plumber utilizes and define features that are novel to Jumpman Plumber. 
-It will also provide key terms that will be useful to the user as they play our Java game. 
-
-
-**Project**
-
-Our project’s name is Jumpman Plumber and is similar to the Super Mario Bros game. However, we are designing the game a little differently. In our game, there is one character that represents the user while playing. The game will begin with the character moving from left to right along the screen. The goal of the game is for the character to cross the finish line. However, there will be obstacles throughout the game that you (the player) will have to pass in order to win. These obstacles consist of platforming, jumping, enemy avoidance, and things of that nature. 
-
-
-The game will be written in Java and have multiple graphic components. Upon playing, users will utilize the up, down, left, and right arrow keys to navigate. As the screen moves from left to right, the scenery changes and the player faces new obstacles. If the player does not make it past an obstacle, he or she will die and be prompted to restart and try again. In addition, if a player finds that he or she is struggling or does not know how to play, they can click the “HELP” button in the top corner of the screen. This will display the instructions for those who do not know play and provide insight on what each of the obstacles do for those who are stuck on an obstacle. The player will know they have won the game as soon as they cross the finish line and are prompted with a “THE END” message and a “TRY AGAIN” button. 
-
 
 ## Overview
 
@@ -141,11 +83,17 @@ This section explains the framework that Jumpman Plumber is modeled after. Our f
 
 **Standards**
 
-This sections describes the requirements that Jumpman Plumber must satisfy to be considered viable
-software.
+This sections describes the requirements that Jumpman Plumber must satisfy in order to be considered a viable
+software. 
 
+The requirements include: 
+
+The character must be able to move left, right, jump, and shoot fireballs. Enemies must be killed when anything hits them. This excludes when enemies are jumped on. The character must be able to finish the level.
 
 **Restraints**
 
 This section describes the limitations that the developers of Jumpman Plumber are bound by.
 
+Limitations:
+
+The game must be completed in Java code and work on various OS.
